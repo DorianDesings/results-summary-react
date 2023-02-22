@@ -1,5 +1,13 @@
+import Result from './components/result/Result';
+import Summary from './components/summary/Summary';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<div>
+			<Result />
+			<Summary />
+		</div>
+	);
 };
 
 export default App;
