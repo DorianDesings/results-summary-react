@@ -1,12 +1,13 @@
+import { Container } from './components/container/container';
 import Result from './components/result/Result';
 import Summary from './components/summary/Summary';
 
 const App = () => {
 	return (
-		<div>
+		<Container>
 			<Result />
 			<Summary />
-		</div>
+		</Container>
 	);
 };
 
